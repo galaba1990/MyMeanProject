@@ -76,7 +76,9 @@ myApp.controller('resgistartionCtrl', ['$scope','$location','$http','$rootScope'
 }]);
 
 myApp.controller('dashBoardCtrl', ['$scope','$rootScope', function($scope,$rootScope) {
-  
+   $scope.postTheTopic = function(){
+      alert("post the topic....");
+  };
 }]);
 
 myApp.controller('homePageCtrl', ['$scope','$rootScope', function($scope,$rootScope) {
