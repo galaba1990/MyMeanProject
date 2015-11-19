@@ -1,0 +1,46 @@
+<!--<div  class="md-padding" ng-cloak>
+  <div>
+    <h1 class="md-title">Enter an address</h1>
+    <div layout="row">
+      <md-input-container>
+        <label>Street Name</label>
+        <input>
+      </md-input-container>
+      <md-input-container>
+        <label>City</label>
+        <input>
+      </md-input-container>
+      <md-input-container>
+        <label>State</label>
+        <md-select ng-model="userState">
+          <md-option ng-repeat="state in states" value="{{state.abbrev}}">
+            {{state.abbrev}}
+          </md-option>
+        </md-select>
+      </md-input-container>
+        <md-button md-no-ink class="md-primary" ng-click="submit()">click</md-button>
+         
+    </div>
+  </div>
+</div>
+-->
+
+
+<div class="loginPageDiv">
+    
+    <div class="textfiled">
+        <label>Email:</label>
+        <input type="text" ng-model="user.email" style="margin: 5%;"> <br>
+    </div>
+    
+    <div class="textfiled">
+        <label>Password:</label>
+        <input type="password" ng-model="user.password" style="margin: 5%;">
+    </div>
+   
+    
+    <div>
+        <a ng-click="login(user)">Submit</a>
+    </div>
+    
+</div>

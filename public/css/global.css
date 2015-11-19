@@ -1,0 +1,195 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 16, 2015, 7:29:44 PM
+    Author     : sivaprasad.galaba
+*/
+.loginPageDiv{
+    
+    width: 40%;
+    margin: auto;
+    border: 1px solid white;
+    height: 150px;
+    margin-top: 10%;
+    background-color: white;
+}
+.regsiter_main{
+    width: 45%;
+    margin: auto;
+    height: 35px;
+    background-color: white;
+    
+}
+.textfiled{
+    width: 40%;
+    margin: auto;
+}
+.loginSignUp{
+    width: 12%;
+    margin-left: 66%;
+    margin-top: 2%;
+}
+.mainPageHeading{
+    background-color: white;
+    width: 100%;
+    height: 600px;
+    margin: auto;
+}
+
+.margin{
+    margin: 2%;
+}
+
+.poniter{
+    
+    cursor: pointer;
+    
+}
+
+body{
+    width: 100%;
+    background-color: #e9eaed;
+}
+
+.marginTop10Per{
+    margin-top: 3%;
+    font-size: 16px;
+}
+
+.margin5Per{
+   
+    width: 63%;
+    margin: 4%;
+}
+.textBox{
+    height: 36px;
+   width: 63%;
+    margin: 4%;
+}
+.firstNameClass{
+       width: 100%;
+}
+.topBar{
+    width: 100%;
+    height: 45px;
+    background-color: #FF6347;
+}
+
+.logo{
+    color: white;
+    font-size: 21px;
+    margin: 27px;
+}
+.bottomBar{
+     width: 100%;
+    height: 40px;
+    background-color: #FF6347;
+}
+.leftNavigation{
+   width: 14%;
+    height: 618px;
+    background-color: white;
+    float: left;
+    /* margin: 1%; */
+    margin-top: -3%;
+    
+}
+.margin1Per{
+    margin-top: 1%;
+}
+.enterTopicDiv{
+    height: 100px !important;
+   
+}
+.border{
+     border-top-style: solid;
+    border-top-color: #bdc7d8;
+    border-top-width: 1px;
+}
+.world_img{
+   height: 70px;
+    width: 70px;
+    border: 1px #bdc7d8 dashed;
+    margin-top: 2%;
+    margin-left: 2%;
+    float: left;
+}
+.topicArea{
+   width: 78%;
+    height: 50px;
+    //border: 1px red solid;
+    float: left;
+    margin: 4%;
+}
+.topicTextArea{
+    width: 100%;
+    height: 100%;
+    border: none;
+    
+}
+
+.topicTextArea:focus {
+    outline: none;
+}
+textarea {
+    resize: none;
+    overflow:hidden;
+}
+.height38px{
+    height: 38px !important;
+}
+textarea::-webkit-input-placeholder {  color: lightskyblue; font-size: 18px;font-family: Miama;}
+
+.md-toolbar-tools h1 {
+  font-size: inherit;
+  font-weight: inherit;
+  margin: inherit;
+}
+
+md-sidenav.md-locked-open {
+  width: 150px !important;
+  min-width: 150px !important;
+  max-width: 150px !important;
+}
+md-checkbox.md-checked.green .md-icon {
+ background-color: rgba(0, 255, 0, 0.87);
+}
+
+.selectdemoBasicUsage md-input-container {
+  margin-right: 10px; }
+
+.buttondemoBasicUsage section {
+  background: #f7f7f7;
+  border-radius: 3px;
+  text-align: center;
+  margin: 1em;
+  position: relative !important;
+  padding-bottom: 10px; }
+.buttondemoBasicUsage md-content {
+  margin-right: 7px; }
+.buttondemoBasicUsage section .md-button {
+  margin-top: 16px;
+  margin-bottom: 16px; }
+.buttondemoBasicUsage .label {
+  position: absolute;
+  bottom: 5px;
+  left: 7px;
+  font-size: 14px;
+  opacity: 0.54; }
+.dialogdemoBasicUsage #popupContainer {
+  position: relative; }
+.dialogdemoBasicUsage .debt-be-gone {
+  font-weight: bold;
+  color: blue;
+  text-decoration: underline; }
+.dialogdemoBasicUsage .footer {
+  width: 100%;
+  text-align: center;
+  margin-left: 20px; }
+.dialogdemoBasicUsage .footer, .dialogdemoBasicUsage .footer > code {
+  font-size: 0.8em;
+  margin-top: 50px; }
+
